@@ -1,6 +1,7 @@
 <script>
 // 1) Importazione del componente
 import SectionHeader from './sections/SectionHeader.vue';
+import SectionMain from './sections/SectionMain.vue';
 
 export default {
   data() {
@@ -10,7 +11,8 @@ export default {
   },
   // 2) Dichiarazione del componente
   components: {
-    SectionHeader
+    SectionHeader,
+    SectionMain
   }
 }
 </script>
@@ -19,6 +21,7 @@ export default {
   <main>
     <!-- 3) Utilizzo del componente -->
     <SectionHeader />
+    <SectionMain />
   </main>
 </template>
 
