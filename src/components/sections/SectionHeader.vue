@@ -13,9 +13,9 @@ export default {
   <div class="container rounded-5 rounded-top-0">
     <div class="row">
       <div class="col">
-        <h3>
+        <h2 class="livvic-bold">
           Advent Calendar<br>2024 
-        </h3>
+        </h2>
         <div class="img-container rounded-5 rounded-top-0">
 
         </div>
@@ -41,7 +41,7 @@ export default {
 
       
 
-      h3 {
+      h2 {
 
         color: white;
         text-align: center;
